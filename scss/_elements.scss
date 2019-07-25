@@ -1,0 +1,70 @@
+h1 {
+
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+.logo {
+  height: 100%;
+}
+
+.btn-nav {
+  position: absolute;
+  top: 50%;
+  display: block;
+  border: 0;
+  width: 4rem;
+  height: 4rem;
+  transform: translateY(-50%);
+  background-color: white;
+}
+
+.btn-nav--prev {
+  left: 0;
+}
+
+.btn-nav--next {
+  right: 0;
+}
+
+// 1. push item to the bottom.
+.btn-cta {
+  display: block;
+  margin-top: auto; // 1.
+  padding: 1rem 2rem;
+
+  background: $base-blue;
+  color: white;
+}
+
+.btn-toggle {
+  padding: 1rem 2rem;
+
+  border: 1px solid $base-grey;
+}
+
+.btn-toggle--active {
+  background-color: $base-blue;
+  color: white;
+}
+
+.list-sorts {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.list-sorts__map {
+  margin-right: auto;
+}
+
+.list-sorts__label {
+  margin-right: 2rem;
+}
+
+.filter-summary {
+  margin-bottom: 2rem;
+  border-bottom: 1px solid $base-grey;
+}

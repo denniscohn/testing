@@ -1,0 +1,25 @@
+@import "_variables";
+@import "_mixins";
+@import "_layout";
+@import '_elements';
+@import "_hotel";
+
+html {
+  padding: 0;
+  margin: 0;
+  font-size: 62.5%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+.visually-hidden { 
+  position: absolute !important;
+  height: 1px; width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+}
